@@ -22,6 +22,7 @@
     # user selected packages
     pkgs.helix
     pkgs.go
+    pkgs.just
     # Fleek Bling
     pkgs.git
     pkgs.htop
