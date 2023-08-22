@@ -23,6 +23,7 @@
     pkgs.helix
     pkgs.go
     pkgs.just
+    pkgs.yq
     # Fleek Bling
     pkgs.git
     pkgs.htop

@@ -18,6 +18,7 @@ packages:
     - helix
     - go
     - just
+    - yq
 paths:
     - $HOME/bin
     - $HOME/.local/bin
