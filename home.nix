@@ -23,6 +23,7 @@
     pkgs.helix
     pkgs.go
     pkgs.just
+    pkgs.openssh
     # Fleek Bling
     pkgs.git
     pkgs.htop

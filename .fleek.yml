@@ -18,6 +18,7 @@ packages:
     - helix
     - go
     - just
+    - openssh
 paths:
     - $HOME/bin
     - $HOME/.local/bin
