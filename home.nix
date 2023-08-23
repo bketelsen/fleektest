@@ -24,6 +24,7 @@
     pkgs.go
     pkgs.just
     # Fleek Bling
+    pkgs.git
     pkgs.htop
     pkgs.github-cli
     pkgs.glab
