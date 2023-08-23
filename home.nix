@@ -25,7 +25,6 @@
     pkgs.just
     pkgs.openssh
     # Fleek Bling
-    pkgs.git
     pkgs.htop
     pkgs.github-cli
     pkgs.glab

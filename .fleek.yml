@@ -3,7 +3,7 @@ aliases:
 allow_broken: false
 bling: high
 blocklist: []
-byo_git: false
+byo_git: true
 ejected: false
 flakedir: .local/share/fleek
 git:
