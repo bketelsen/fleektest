@@ -11,7 +11,11 @@
   theme = "TwoDark";
 };
     # bash
-  programs.bash.profileExtra = "[ -r ~/.nix-profile/etc/profile.d/nix.sh ] && source  ~/.nix-profile/etc/profile.d/nix.sh";
+  programs.bash.profileExtra = ''
+    [ -r ~/.nix-profile/etc/profile.d/nix.sh ] && source  ~/.nix-profile/etc/profile.d/nix.sh
+    export XCURSOR_PATH=~/.icons:~/.nix-profile/share/icons/:$XCURSOR_PATH
+
+  '';
   programs.bash.initExtra = ''
     if [ -f /etc/bashrc ]; then
         . /etc/bashrc
